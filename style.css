@@ -305,6 +305,10 @@ a {
 
 /* Products cards */
 
+.products-cards{
+  margin-top: 32px;
+}
+
 .products-cards ul{
   display: flex;
   align-items: center;
@@ -324,8 +328,46 @@ a {
   margin-top: 351px;
 }
 
-.{
+.card-p2{
+  max-width: 310px;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -4%;
+}
 
+.cards-price{
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards-price button{
+  padding: 12px;
+  border: 1px solid #EFEFEF;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.products-cards li{
+  position: relative;
+}
+
+.cilantro{
+  position: absolute;
+  top: 28px;
+  left: 28px;
+}
+
+.cards-heart{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 8px;
+  border-radius: 50%;
+  border: 1px solid #EFEFEF;
 }
 
 
