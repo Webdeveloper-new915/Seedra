@@ -127,7 +127,7 @@ a {
   margin-top: 21px;
 }
 
-.price h1 {
+.price  h1 {
   margin-left: 16px;
   font-weight: 600;
   font-size: 42px;
@@ -455,6 +455,10 @@ a {
   .hero-wrapper {
     padding: 48px 42px 52px;
   }
+
+  .tables .container ul{
+    flex-wrap: nowrap;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -478,9 +482,9 @@ a {
   .hero-wrapper {
     padding: 0;
     background-image: url(./images/responsive-big-leaf.png),
-      url(./images/responsive-seedra.png);
+      url(./images/responsive-seedra.png), url(./images/responsive-leaf-right-top.png), url(./images/reponsive-right-middle.png), url(./images/responsive-right-middle2.png), url(./images/responsive-right-bottom.png);
     background-repeat: no-repeat;
-    background-position: left 0px top 134px, right 71px top 204px;
+    background-position: left 0px top 134px, right 71px top 184px, top 194px right 57px, top 262px right 22px, top 220px right 10px, top 353px right 62px;
   }
 
   .cost1 {
@@ -492,7 +496,7 @@ a {
   }
 
   .price {
-    margin-top: 0;
+    margin-top: 0px;
     align-items: center;
   }
 
@@ -501,15 +505,18 @@ a {
     font-size: 28px;
     line-height: 36px;
     letter-spacing: -5%;
-    margin-top: 22px;
   }
 
   .hero-wrapper {
     padding: 24px;
   }
 
-  .buttons{
+  .hero-wrapper p{
     margin-top: 235px;
+  }
+
+  .tables .container ul{
+    flex-wrap: wrap;
   }
 }
 
