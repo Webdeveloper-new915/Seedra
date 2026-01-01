@@ -254,7 +254,6 @@ a {
   background-color: #ffffff;
 }
 
-
 .tables ul {
   gap: 12px;
   justify-content: space-between;
@@ -500,38 +499,36 @@ a {
   max-width: 286px;
 }
 
-.grid2 button{
+.grid2 button {
   margin-bottom: 109px;
 }
 
-.grid4 .grid-text{
+.grid4 .grid-text {
   max-width: 306px;
 }
 
-.grid-wrapper h2{
+.grid-wrapper h2 {
   margin-top: 8px;
 }
 
-.grid-wrapper p{
+.grid-wrapper p {
   margin-top: 4px;
 }
 
-.grid-wrapper button{
+.grid-wrapper button {
   margin-top: 14px;
 }
 
-.grid3 h2{
+.grid3 h2 {
   max-width: 286px;
 }
 
-.grid4 p{
+.grid4 p {
   max-width: 390px;
 }
 
-
-
-
 /* Responsive */
+
 @media screen and (max-width: 1440px) {
   .container {
     padding: 0 80px;
@@ -621,6 +618,37 @@ a {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .grid-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 24px;
+  }
+
+  .grid1 {
+    grid-area: auto;
+  }
+
+  .grid2 {
+    grid-area: auto;
+  }
+
+  .grid3 {
+    grid-area: auto;
+  }
+
+  .grid4 {
+    grid-area: auto;
+  }
+
+  .grid-text {
+    max-width: 100%;
+  }
+
+  
+}
+
+
 @media screen and (max-width: 768px) {
   .header .container {
     padding: 12px 20px;
@@ -683,6 +711,45 @@ a {
 
   .tables .container ul {
     flex-wrap: wrap;
+  }
+
+  /* Make blog grid stack on small screens */
+  .grid-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 18px;
+  }
+
+  .grid1,
+  .grid2,
+  .grid3,
+  .grid4 {
+    grid-area: auto;
+    background-position: center right;
+    border-radius: 12px;
+    padding: 0;
+  }
+
+  .grid-text {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .grid1 .container {
+    padding: 16px;
+  }
+
+  .grid2 button {
+    margin-bottom: 0;
+  }
+
+  .grid-wrapper h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .grid-wrapper p {
+    font-size: 14px;
   }
 }
 
