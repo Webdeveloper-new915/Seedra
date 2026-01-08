@@ -868,7 +868,7 @@ a {
       bottom 79px center, right 30px bottom 19px;
   }
 
-  .product-overview-text{
+  .product-overview-text {
     text-align: center;
     margin: auto;
   }
@@ -1044,6 +1044,7 @@ a {
   .header .container {
     justify-content: space-between;
   }
+  
   .logo img {
     width: 80px;
   }
