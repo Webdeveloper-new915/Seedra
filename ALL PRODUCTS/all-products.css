@@ -93,6 +93,10 @@ a {
 
 /* Search */
 
+.navbar-search {
+  margin-top: 32px;
+}
+
 .navbar-search .container {
   display: flex;
   justify-content: space-between;
@@ -143,6 +147,10 @@ a {
 }
 
 /* Tables */
+
+.tables {
+  margin-top: 25px;
+}
 
 .tables ul {
   gap: 12px;
@@ -204,6 +212,73 @@ a {
   padding: 20px 30px 20px 16px;
 }
 
+/* Products cards */
+
+.products-cards {
+  margin-top: 32px;
+}
+
+.products-cards ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products-cards ul li {
+  padding: 28px;
+  border-radius: 8px;
+  border: 2px solid #efefef;
+}
+
+.icon-star {
+  margin-top: 351px;
+}
+
+.card-p2 {
+  max-width: 310px;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -4%;
+}
+
+.cards-price {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards-price button {
+  padding: 12px;
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.products-cards li {
+  position: relative;
+}
+
+.cilantro {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+}
+
+.cards-heart {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 8px;
+  border-radius: 50%;
+  border: 1px solid #efefef;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 1440px) {
@@ -258,6 +333,10 @@ a {
   .big-search {
     max-width: 464px;
     width: 100%;
+  }
+
+  .section{
+    margin-left: 28px;
   }
 }
 
@@ -325,8 +404,24 @@ a {
   }
 
   .section {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 10px;
+  }
+
+  .testimonials-cards {
+    flex-wrap: wrap;
+  }
+
+  .search{
+    margin-left: 0px;
+  }
+
+  .cilantro{
+    width: 250px;
+  }
+
+  .icon-star{
+    margin-top: 280px;
   }
 }
 
@@ -373,6 +468,18 @@ a {
   .tables .container {
     padding: 0 40px;
   }
+
+  .cilantro {
+    width: 220px;
+  }
+
+  .products-cards .container {
+    padding: 0 40px;
+  }
+
+  .icon-star{
+    margin-top: 250px;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -393,7 +500,15 @@ a {
     margin-left: 15px;
   }
 
-  .tables li img{
+  .tables li img {
     width: 20px;
+  }
+
+  .cilantro {
+    width: 160px;
+  }
+
+  .icon-star{
+    margin-top: 170px;
   }
 }
