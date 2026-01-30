@@ -1086,10 +1086,6 @@
     justify-content: center;
   }
 
-  .search input {
-    display: none;
-  }
-
   .search img {
     margin-left: 0;
   }
@@ -1163,7 +1159,7 @@
     margin: auto;
   }
 
-  .utils-img {
+  .utils img {
     padding: 6px;
     border: 1px solid #efefef;
     border-radius: 50%;
@@ -1233,7 +1229,7 @@
     margin: auto;
   }
 
-  .utils-img {
+  .utils img {
     padding: 6px;
     border: 1px solid #efefef;
     border-radius: 50%;
@@ -1292,5 +1288,8 @@
 
   .tables li img {
     width: 20px;
+  }
+  .section{
+    display: none;
   }
 }
