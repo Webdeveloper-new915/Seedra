@@ -91,61 +91,6 @@ a {
   display: none;
 }
 
-/* Search */
-
-.navbar-search {
-  margin-top: 32px;
-}
-
-.navbar-search .container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.big-search {
-  max-width: 825px;
-  width: 100%;
-  flex-shrink: 0;
-  border: 1px solid #efefef;
-  border-radius: 71px;
-  padding: 17px 0;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.big-search input {
-  border: none;
-  width: 90%;
-}
-
-.big-search img {
-  margin-left: 30px;
-}
-
-.big-search-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.big-search-text p:nth-child(1) {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 178%;
-  letter-spacing: 0%;
-  color: #70737c;
-  white-space: nowrap;
-}
-
-.big-search-text p:nth-child(2) {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 25px;
-  letter-spacing: 0%;
-  white-space: nowrap;
-}
-
 /* Tables */
 
 .tables {
