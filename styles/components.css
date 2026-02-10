@@ -176,3 +176,24 @@
   letter-spacing: 0%;
   color: #70737c;
 }
+
+.packs-countr {
+  display: flex;
+  align-items: center;
+  padding: 6px 14px;
+  color: #359740;
+  gap: 8px;
+  border: 1px solid #efefef;
+  font-size: 16px;
+  border-radius: 11px;
+  font-weight: 500;
+  line-height: 178%;
+  letter-spacing: -3.5%;
+  max-width: 94px;
+}
+
+.packs-countr p:nth-child(2) {
+  padding: 2px 12px;
+  background-color: #35974014;
+  border-radius: 6px;
+}

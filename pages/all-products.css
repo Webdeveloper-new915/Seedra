@@ -91,6 +91,18 @@ a {
   display: none;
 }
 
+.big-search input{
+  border: none;
+}
+
+.big-search img{
+  margin-left: 20px;
+}
+
+.big-search{
+  justify-content: start;
+}
+
 /* Tables */
 
 .tables {
